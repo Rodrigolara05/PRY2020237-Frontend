@@ -87,7 +87,7 @@ export default {
             localStorage.setItem("sesion", JSON.stringify(response.data));
             window.location.href = "/project";
           } else {
-            alert("Usuario Incorrecto");
+            alert("Las credenciales no son las correctas");
           }
         })
         .catch(function (error) {
